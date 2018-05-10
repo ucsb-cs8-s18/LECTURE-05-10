@@ -1,0 +1,64 @@
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 03:03:55) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> s4x5 = makeFullScreen(4,5)
+>>> printScreen(s4x5)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    printScreen(s4x5)
+  File "/Users/pconrad/cs8/LECTURE-05-10/makeScreen.py", line 26, in printScreen
+    for row in len(screen):   # how many rows are there in screen?
+TypeError: object of type 'NoneType' has no len()
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> s4x5 = makeFullScreen(4,5)
+>>> printScreen(s4x5)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    printScreen(s4x5)
+  File "/Users/pconrad/cs8/LECTURE-05-10/makeScreen.py", line 26, in printScreen
+    for row in len(screen):   # how many rows are there in screen?
+TypeError: 'int' object is not iterable
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> s4x5 = makeFullScreen(4,5)
+>>> printScreen(s4x5)
+*****
+*****
+*****
+*****
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> 
+========== RESTART: /Users/pconrad/cs8/LECTURE-05-10/makeScreen.py ==========
+>>> s = makeFullScreen(7,9)
+>>> printScreen(s)
+*********
+*********
+*********
+*********
+*********
+*********
+*********
+>>> clearRow(s,4)
+>>> printScreen(s)
+*********
+*********
+*********
+*********
+         
+*********
+*********
+>>> 
